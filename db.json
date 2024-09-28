@@ -10,7 +10,7 @@
     {
       "id": 2,
       "email": "admin@example.com",
-      "password": "$2a$10$XQxWZNMNZnXGxBLcLRYxLOeGD.0AaXnUGfWOyAkC8qdEzAh2HMQdG",
+      "password": "admin2024",
       "name": "Admin User",
       "role": "admin"
     },
@@ -34,6 +34,11 @@
       "password": "$2a$10$XQxWZNMNZnXGxBLcLRYxLOeGD.0AaXnUGfWOyAkC8qdEzAh2HMQdG",
       "name": "Alice Johnson",
       "role": "customer"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$dKctI/valDkP5pYw9/zkseJZp5uoUjgjcL6p6fo1QMll2nfzIIptq",
+      "id": 6
     }
   ],
   "products": [
@@ -126,6 +131,27 @@
       "categoryId": 3,
       "inventory": 45,
       "imageUrl": "/placeholder.svg?height=300&width=300"
+    },
+    {
+      "name": "ajoidawjiodajio",
+      "description": "dajidjiadoji",
+      "price": 2139239013,
+      "categoryId": 5,
+      "id": 11
+    },
+    {
+      "name": "adad",
+      "description": "dawdad",
+      "price": 123213,
+      "categoryId": 5,
+      "id": 12
+    },
+    {
+      "name": "Iphone 16",
+      "description": "Iphone",
+      "price": 1200,
+      "categoryId": 1,
+      "id": 13
     }
   ],
   "categories": [
@@ -165,8 +191,14 @@
       "id": 1,
       "userId": 1,
       "products": [
-        { "productId": 1, "quantity": 1 },
-        { "productId": 3, "quantity": 2 }
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "quantity": 2
+        }
       ],
       "total": 1099.97,
       "status": "processing",
@@ -176,8 +208,14 @@
       "id": 2,
       "userId": 3,
       "products": [
-        { "productId": 2, "quantity": 1 },
-        { "productId": 5, "quantity": 1 }
+        {
+          "productId": 2,
+          "quantity": 1
+        },
+        {
+          "productId": 5,
+          "quantity": 1
+        }
       ],
       "total": 1399.98,
       "status": "shipped",
@@ -187,9 +225,18 @@
       "id": 3,
       "userId": 5,
       "products": [
-        { "productId": 4, "quantity": 1 },
-        { "productId": 6, "quantity": 1 },
-        { "productId": 7, "quantity": 2 }
+        {
+          "productId": 4,
+          "quantity": 1
+        },
+        {
+          "productId": 6,
+          "quantity": 1
+        },
+        {
+          "productId": 7,
+          "quantity": 2
+        }
       ],
       "total": 1089.96,
       "status": "delivered",
@@ -198,7 +245,12 @@
     {
       "id": 4,
       "userId": 1,
-      "products": [{ "productId": 8, "quantity": 1 }],
+      "products": [
+        {
+          "productId": 8,
+          "quantity": 1
+        }
+      ],
       "total": 899.99,
       "status": "processing",
       "createdAt": "2023-09-26T16:45:00Z"
@@ -207,8 +259,14 @@
       "id": 5,
       "userId": 3,
       "products": [
-        { "productId": 9, "quantity": 1 },
-        { "productId": 10, "quantity": 1 }
+        {
+          "productId": 9,
+          "quantity": 1
+        },
+        {
+          "productId": 10,
+          "quantity": 1
+        }
       ],
       "total": 749.98,
       "status": "pending",
